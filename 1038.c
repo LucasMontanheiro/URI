@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(){
+int main(){
 	int codigo, quantidade;
 	float valor;
 	
@@ -23,4 +23,5 @@ void main(){
 	}
 	
 	printf("Total: R$ %.2f\n",valor);
+	
 }
